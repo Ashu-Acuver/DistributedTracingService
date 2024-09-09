@@ -60,6 +60,14 @@ You should see a message something like below
 "Root=1-66df0cbd-126a93ba69c549ac4d35a3f5" }, "json": null, "origin": "103.16.69.132", "url": "https://httpbin.org/post" }
 ```
 ---
+### 5. **Check Traces & Metrics for your Application ✔✔**
+- Go to the following site on a new tab in the browser
+```plaintext
+http://localhost:16686/search
+```
+- This is were jaeger is deployed locally in your system.
+- Select a Service from the services input dropdown tab.(If you find 0 services please refresh the page)
+- Now you will be able to see traces for your application.
 
 ## 🎯 Final Notes
 
@@ -77,3 +85,4 @@ If you encounter any issues, don’t hesitate to reach out! We’re here to help
 - **Cloned the Repository**: We got the project files onto your machine.
 - **Ran Docker Compose**: This started up everything we need in the background.
 - **Visited the Service**: You interacted with the running service through your browser!
+- **Checked the Traces & Metrics**: For the interaction you made to the application you will be able to check the traces!
